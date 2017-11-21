@@ -6,3 +6,5 @@ declare module 'react-native-background-geolocation' {
   export const removeListeners: () => any;
   export const LOG_LEVEL_VERBOSE;
 }
+
+export * from './RNBackgroundGeolocation';
