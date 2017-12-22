@@ -8,6 +8,10 @@ declare module 'react-native-background-geolocation' {
   export const stop: () => any;
   export const removeListeners: () => any;
   export const LOG_LEVEL_VERBOSE;
+  export const DESIRED_ACCURACY_HIGH;
+  export const DESIRED_ACCURACY_MEDIUM;
+  export const DESIRED_ACCURACY_LOW;
+  export const DESIRED_ACCURACY_VERY_LOW;
 }
 
 export * from './RNBackgroundGeolocation';
