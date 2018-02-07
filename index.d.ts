@@ -18,4 +18,4 @@ declare module 'react-native-background-geolocation' {
 	export const DESIRED_ACCURACY_VERY_LOW;
 }
 
-export * from './RNBackgroundGeolocation';
+export * from './index';
